@@ -1,4 +1,7 @@
-# This program calculates factorials
+# Title: Calculate factorials
+# Author: Ahmed M Khan
+# Date: 6/4/21
+# Description : This program calculates factorials
 # by calling the same function recursively
 
 def factorial(n):
