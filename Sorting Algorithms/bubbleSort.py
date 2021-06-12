@@ -1,7 +1,7 @@
 # Title: Bubblesort implementation
 # Author: Ahmed M Khan
-# Date Created: 6/9/21
-# Date Modified: 6/9/21
+# Date Created: 6/10/21
+# Date Modified: 6/11/21
 # Description : Sorts a list of numbers using bubblesort algorithm
 
 def bubbleSort(n):
@@ -17,7 +17,7 @@ def bubbleSort(n):
     else:
         return n
 
-# print results 
+# print results
 numbers = [4,2,1,5,6,3,7,9,8]
 print('orginal list:', numbers)
 print('Sorted:', bubbleSort(numbers))
