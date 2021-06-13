@@ -7,11 +7,13 @@
 def bubbleSort(n):
     index = 0
     swap_count = 0
-    for i in range(len(n)-1):
+    for index in range(len(n)-1):
         if n[index] > n[index+1]:
+            # swap values
             n[index], n[index+1] = n[index+1], n[index]
             swap_count += 1
-        index += 1
+
+    # check if any elements were swapped. If not, return sorted list
     if swap_count > 0:
         return bubbleSort(n)
     else:
