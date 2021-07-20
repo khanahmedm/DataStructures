@@ -2,7 +2,7 @@
 # Author: Ahmed M Khan
 # Date Created: 7/19/21
 # Date Modified: 7/19/21
-# Description : This program creates circular linked list; adds and deletes nodes, and traverses singly linked list
+# Description : This program creates circular singly linked list; adds and deletes nodes, and traverses circular singly linked list
 
 class Node:
     def __init__(self, value=None):
